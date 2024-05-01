@@ -66,6 +66,20 @@ Download the pretrained model from [Google Drive](https://drive.google.com/file/
     Running Script Env Config 
 </div>
 
+Or you can directly copy this
+```
+--cfg
+../configs/256x192_res50_regress-flow.yaml
+--valid-batch
+1
+--checkpoint
+../coco-laplace-rle.pth
+--launcher
+pytorch
+--rank
+0
+```
+
 ### 2. Customize you video path in demo_video.py line 56.
 <div align="center">
     <img src="assets/videopath.png", width="600" alt><br>
