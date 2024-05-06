@@ -1,4 +1,4 @@
-# RLE with COCO Human Pose Video Demo
+# RLE(Residual-Log-likelihood-Estimation) with COCO Human Pose Video Demo
 
 ### Result Example
 <div align="center">
